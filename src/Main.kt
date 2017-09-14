@@ -1,9 +1,9 @@
-//mi a kotlin 8metódus vezérlés stb
+//mi a kotlin metódus vezérlés stb
 //////////////////default param,named args
 //open class,override
-//több class egy file
+/////////////////több class egy file
 //firt class and high ordered fnction
-//contsructor
+//////////////////contsructor
 //////////////////data class
 /////////////////operatorOveloadingExtensionFn overloading
 ////////////////string interpol
