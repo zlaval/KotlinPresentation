@@ -4,4 +4,3 @@
 //functional programming
 //generic covariant
 //object
-//infix
