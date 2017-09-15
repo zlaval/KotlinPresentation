@@ -8,8 +8,8 @@
 /////////////////operatorOveloadingExtensionFn overloading
 ////////////////string interpol
 ///////////////extension function
-//null safety
-//typecheck,cast
+///////////////null safety
+///////////////typecheck,cast
 //type inferane
 //lambda
 //functional programming
