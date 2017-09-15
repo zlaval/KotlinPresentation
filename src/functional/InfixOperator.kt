@@ -7,16 +7,14 @@ data class Num(val num: Int) {
     }
 }
 
-
 fun main(args: Array<String>) {
     val two = Num(2)
     val three = Num(3)
 
+    //call as arithmetic operator
     val five = two add three
-
     val otherFive = two.add(three)
 
     println(five)
     println(otherFive)
-
 }
