@@ -5,6 +5,7 @@ val multiLineStr = """In Kotlin
         |multiline strings
     """.trimMargin()
 
+
 fun main(args: Array<String>) {
     println(multiLineStr)
 }
