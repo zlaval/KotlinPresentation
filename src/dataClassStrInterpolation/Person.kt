@@ -12,7 +12,12 @@ fun main(args: Array<String>) {
 
     println(john)
     println(joe)
-    println("The person ${joe} and the person ${anotherJoe} is equals: ${joe.equals(anotherJoe)}")
-    println("The person ${joe} and the person ${joeJr} is equals: ${joe.equals(joeJr)}")
+    println("The person $joe and the person $anotherJoe is equals: ${joe == anotherJoe}")
+    println("The person $joe and the person $joeJr is equals: ${joe == joeJr}")
+
+    val sameJoe = Person("549843KL", "Joe Doe", 38)
+    println("${joe == sameJoe}")
+    println("${joe === sameJoe}")
+
 }
 
