@@ -12,6 +12,9 @@ fun main(args: Array<String>) {
 
     println(john)
     println(joe)
+    println(joe.hashCode())
+    println(joe == joe)
+    println(joe === joe)
     println("The person $joe and the person $anotherJoe is equals: ${joe == anotherJoe}")
     println("The person $joe and the person $joeJr is equals: ${joe == joeJr}")
 

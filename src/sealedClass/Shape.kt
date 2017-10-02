@@ -15,5 +15,4 @@ fun printShapeName(shape: Shape): Unit {
         is Circle -> print("Circle")
     //no need default cause
     }
-
 }

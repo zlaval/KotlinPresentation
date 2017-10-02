@@ -29,6 +29,10 @@ fun main(args: Array<String>) {
 
     val positive = a > 0//if (a > 0) true else false
 
+    printName("Zalerix", 1)
+    printName("Zalerix")
+    printName(age = 1, name = "Zalerix")
+
 }
 
 fun whenExpression(obj: Any): String =
@@ -38,6 +42,9 @@ fun whenExpression(obj: Any): String =
             else -> "what is this?"
         }
 
+fun ifExpression(a: Int, b: Int): Int = if (a < b) a else b
+
+fun printName(name: String, age: Int = 100) = println("My name is $name and I'm $age old")
 
 fun publicFun() {
 
@@ -50,8 +57,6 @@ private fun privateFun() {
 internal fun internalFun() {
     //visible in same module
 }
-
-fun ifExpression(a: Int, b: Int): Int = if (a < b) a else b
 
 abstract class A {
     protected fun sayHello() = print("hello")
