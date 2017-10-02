@@ -2,6 +2,7 @@ package base
 
 import java.util.*
 
+fun String.concat(str: String): String = this + str
 
 fun main(args: Array<String>) {
     val multiLineStr = """In Kotlin
@@ -32,6 +33,10 @@ fun main(args: Array<String>) {
     printName("Zalerix", 1)
     printName("Zalerix")
     printName(age = 1, name = "Zalerix")
+
+    val name: String = "Zal"
+    val concatenated = name.concat("erix")
+    println(concatenated)
 
 }
 

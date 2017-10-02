@@ -30,7 +30,7 @@ class Person(val name: String, val address: Address?)
 //use element only if not null
 fun listWithNull(list: List<String?>) {
     for (element in list)
-        element?.let(::print)
+        element.let(::print)
 
     //val assignListWithNullableToListWithoutNullable: List<String> = list //compile error
 

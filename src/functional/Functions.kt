@@ -11,14 +11,22 @@ fun addFun(a: Int, b: Int): Int = a + b
 fun operate2(num: Int, op: (Int) -> Int): Int = op(num)
 
 fun main(args: Array<String>) {
+    add(2, 3)
+
     operate(2, 3, add)
     operate(2, 3, mul)
     operate(5, 3, { a, b -> a - b })
     operate(6, 7, ::addFun)
 
+
     val double = operate2(2) {
         it * 2
     }
+
+    val double2 = operate2(2) { num ->
+        num * 2
+    }
+
     println(double)
 
     val list = listOf("a", "bb", "ccc", "dddd")
